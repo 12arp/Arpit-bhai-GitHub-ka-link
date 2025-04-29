@@ -1,0 +1,249 @@
+.contact-section {
+  min-height: 100vh;
+  padding: 0;
+  background: #f8f6ff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section h2 {
+  color: #222;
+  font-size: 2.3rem;
+  margin-bottom: 2.2rem;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 3.5rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-details,
+.contact-form {
+  flex: 1;
+  min-width: 340px;
+  max-width: 400px;
+  background: #fff;
+  padding: 2.2rem 3.5rem 2.2rem 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px #5a3ff622;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.contact-details {
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.contact-logo {
+  font-weight: bold;
+  color: #5a3ff6;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+.contact-info span {
+  margin-right: 0.5rem;
+}
+
+.contact-form {
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+.form-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #5a3ff6;
+  margin-bottom: 0.7rem;
+  align-self: center;
+}
+
+.contact-form label {
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  margin-top: 0.5rem;
+  align-self: flex-start;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border: 1.5px solid #e2e0f7;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #f8f6ff;
+  resize: none;
+  margin-bottom: 0.2rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1.5px solid #5a3ff6;
+  box-shadow: 0 0 0 2px #e2e0f7;
+  outline: none;
+}
+
+.contact-form button {
+  background: #5a3ff6;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #5a3ff633;
+  transition: background 0.2s, transform 0.1s;
+  align-self: stretch;
+  margin-top: 0.7rem;
+}
+
+.contact-form button:hover {
+  background: #3a2bb7;
+  transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 900px) {
+  .contact-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .contact-details, .contact-form {
+    min-width: 0;
+    max-width: 98vw;
+    width: 100%;
+    padding: 1.2rem 0.5rem;
+  }
+  .contact-form {
+    align-items: center;
+  }
+  .contact-form button {
+    align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-section h2 {
+    font-size: 1.3rem;
+    padding: 0 0.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .contact-details, .contact-form {
+    padding: 0.7rem 0.2rem;
+    font-size: 0.98rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #5a3ff622;
+  }
+  .form-title {
+    font-size: 1rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.7rem 0.7rem;
+    font-size: 0.88rem;
+    border-radius: 8px;
+  }
+  .contact-form button {
+    font-size: 1rem;
+    padding: 0.7rem 0;
+    border-radius: 8px;
+  }
+  .contact-info {
+    font-size: 0.98rem;
+    gap: 0.4rem;
+  }
+  .contact-details {
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 0.98rem;
+    padding: 0.7rem 0.2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #5a3ff622;
+  }
+  .contact-logo {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  .contact-info {
+    font-size: 0.98rem;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .contact-info span {
+    margin-right: 0.2rem;
+  }
+  .whatsapp-button, .call-button {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 6px;
+    min-width: 90px;
+  }
+  .whatsapp-button svg, .call-button svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.login-form,
+.login-form input,
+.login-form button {
+  box-sizing: border-box;
+}
+
+.contact-form,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  box-sizing: border-box;
+}
+
+.form-message {
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.form-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.form-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.contact-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+} 

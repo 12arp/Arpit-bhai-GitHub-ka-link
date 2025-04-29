@@ -1,0 +1,119 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80vh;
+  padding: 0 4vw;
+  background: #f6f1ff;
+  gap: 2rem;
+}
+
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 600px;
+  margin-left: 7vw;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  color: #0a083b;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.hero-content p {
+  color: #181a2a;
+  font-size: 1.15rem;
+  margin-bottom: 2.2rem;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.call-btn, .whatsapp-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(90,63,246,0.12);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+
+.call-btn {
+  background: #1a0dab;
+  color: #fff;
+  box-shadow: 0 4px 12px #1a0dab33;
+}
+
+.call-btn:hover {
+  background: #0a083b;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.whatsapp-btn {
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 4px 12px #25d36633;
+}
+
+.whatsapp-btn:hover {
+  background: #128c4b;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 7vw;
+}
+
+.hero-image img {
+  width: 440px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px #5a3ff6aa;
+  border: 2px solid #f6f1ff;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    min-height: 80vh;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .hero-content {
+    align-items: center;
+    text-align: center;
+  }
+  .hero-content p {
+    text-align: center;
+  }
+  .hero-image {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .hero-image img {
+    width: 90vw;
+    height: auto;
+    max-width: 350px;
+  }
+} 

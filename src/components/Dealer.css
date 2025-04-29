@@ -1,0 +1,86 @@
+.dealer-section {
+  padding: 2.5rem 0 2rem 0;
+  background: #fff;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.dealer-section h2 {
+  color: #5a3ff6;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dealer-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  color: #222;
+  font-weight: 500;
+  flex-wrap: wrap;
+}
+
+.dealer-benefits li {
+  background: #f8f6ff;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(90,63,246,0.04);
+  min-width: 140px;
+  margin-bottom: 0.5rem;
+}
+
+.dealer-cta-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.dealer-cta-image img {
+  width: 320px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(90,63,246,0.08);
+  display: block;
+  max-width: 90vw;
+}
+
+@media (max-width: 900px) {
+  .dealer-benefits {
+    gap: 1rem;
+  }
+  .dealer-cta-image img {
+    width: 220px;
+    max-width: 98vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .dealer-section {
+    padding: 1.2rem 0 1rem 0;
+    margin-top: 2rem;
+  }
+  .dealer-section h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+  }
+  .dealer-benefits {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .dealer-benefits li {
+    min-width: 0;
+    width: 90vw;
+    font-size: 0.98rem;
+    padding: 0.6rem 0.5rem;
+  }
+  .dealer-cta-image img {
+    width: 98vw;
+    max-width: 98vw;
+  }
+} 
