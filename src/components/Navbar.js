@@ -1,7 +1,8 @@
 import React from "react";
 import "./Navbar.css";
+import { FaPhoneAlt } from 'react-icons/fa';
 import { Link, useLocation } from "react-router-dom";
-
+import { FaWhatsapp } from 'react-icons/fa';
 export default function Navbar() {
   const whatsappNumber = "9876542211";
   const whatsappMessage = encodeURIComponent("I want to connect to you for some query");
@@ -45,8 +46,8 @@ export default function Navbar() {
         <li onClick={() => scrollToSection('Dealer')} style={{ cursor: 'pointer' }}>Become Dealer</li>
       </ul>
       <div className="navbar-buttons">
-        <a href={whatsappLink} className="whatsapp-btn" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-        <a href={callLink} className="call-btn">Call Us</a>
+        <a href={whatsappLink} className="whatsapp-btn" target="_blank" rel="noopener noreferrer"> <FaWhatsapp style={{ marginRight: '0.5rem' }} />WhatsApp</a>
+        <a href={callLink} className="call-btn"> <FaPhoneAlt style={{ marginRight: '0.5rem' }} />Call Us</a>
       </div>
     </nav>
   );
