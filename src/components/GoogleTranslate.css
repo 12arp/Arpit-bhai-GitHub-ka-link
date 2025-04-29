@@ -1,4 +1,5 @@
 .google-translate-container {
+  
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -7,6 +8,7 @@
 
 /* Hide all default Google Translate elements */
 .goog-te-gadget {
+  
   font-family: inherit !important;
   font-size: 14px !important;
   margin: 0 !important;
@@ -14,6 +16,10 @@
 }
 
 .goog-te-gadget-simple {
+  
+  font-family: inherit;
+  font-size: 1.3em;
+  color: #fff !important;
   background-color: #5a3ff6 !important;
   border: none !important;
   padding: 12px 12px !important;
@@ -36,7 +42,8 @@
 }
 
 .goog-te-gadget-simple:hover {
-  background-color: #4933d3 !important;
+  
+  background-color: #33d393 !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
 }
@@ -68,13 +75,13 @@
 }
 
 /* Hide the "Powered by Google Translate" text */
-.goog-logo-link {
+/* .goog-logo-link {
   display: none !important;
-}
+} */
 
-.goog-te-gadget span:not(.goog-te-menu-value span) {
+/* .goog-te-gadget span:not(.goog-te-menu-value span) {
   display: none !important;
-}
+} */
 
 .goog-te-gadget {
   color: transparent !important;
@@ -92,6 +99,7 @@
 /* Remove the top margin that Google Translate adds to the body */
 body {
   top: 0 !important;
+  position: static !important;
 }
 
 /* Fix for translation dropdown showing behind elements */
@@ -119,4 +127,23 @@ body {
   .goog-te-gadget-simple > span > a > span:first-child {
     font-size: 14px !important;
   }
-} 
+}
+
+/* Additional rules to hide translation UI elements */
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* Replace Google Translate button text with 'हिंदी' */
+

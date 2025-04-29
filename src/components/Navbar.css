@@ -54,12 +54,13 @@
 }
 
 .whatsapp-btn, .call-btn {
-  padding: 0.4rem 1rem;
-  border: none;
-  border-radius: 6px;
-  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
 }
 
 .whatsapp-btn {

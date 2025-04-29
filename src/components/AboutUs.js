@@ -35,7 +35,7 @@ const AboutUs = () => {
 
         <div className="about-section">
           <div className="about-image">
-            <img src={process.env.PUBLIC_URL + "/8a98d677-9340-46f5-9ff6-e5f7192d8e87.png"} alt="Our Factory" />
+            <img src={process.env.PUBLIC_URL + "/61ee283f-278d-43e8-8c23-8e0cdbbc61d6.png"} alt="Our Factory" />
           </div>
           <div className="about-text">
             <h2>Our Story</h2>
@@ -51,7 +51,7 @@ const AboutUs = () => {
                 <span className="label">Products</span>
               </div>
               <div className="achievement-card">
-                <span className="number">10+</span>
+                <span className="number">35+</span>
                 <span className="label">Years</span>
               </div>
               <div className="achievement-card">

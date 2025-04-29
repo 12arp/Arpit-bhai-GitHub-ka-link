@@ -3,8 +3,8 @@ import "./Dealer.css";
 
 export default function Dealer() {
   return (
-    <section id="Dealer" className="dealer-section">
-      <h2>Join Our Network: Become a Dealer Today!</h2>
+    <section  className="dealer-section">
+      <h2 id="Dealer">Join Our Network: Become a Dealer Today!</h2>
       <ul className="dealer-benefits">
         <li>Competitive Margins</li>
         <li>Marketing Support</li>

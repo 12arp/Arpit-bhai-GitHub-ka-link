@@ -34,10 +34,15 @@
 }
 
 .product-title {
-  color: var(--primary-color);
+  
   font-size: 1.1rem;
   margin: 8px 0 12px 0;
   text-align: center;
+  text-decoration: none;
+}
+
+.product-item a {
+  text-decoration: none;
 }
 
 .product-desc {

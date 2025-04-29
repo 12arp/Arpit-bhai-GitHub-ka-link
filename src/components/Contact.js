@@ -78,11 +78,11 @@ export default function Contact() {
         <div className="contact-details">
           <div className="contact-logo">Sahu Metals KOTA</div>
           <div className="contact-info">
-            <div><span role="img" aria-label="location">📍</span> GIGABYTE, Jhal, Road # 2, Anantpura, Kota, Rajasthan</div>
-            <div><span role="img" aria-label="phone">📞</span> +91 90010 00000</div>
-            <div><span role="img" aria-label="phone">📞</span> +91 90020 00000</div>
-            <div><span role="img" aria-label="phone">📞</span> +91 90030 00000</div>
-            <div><span role="img" aria-label="email">✉️</span> sahumetals.kota@gmail.com</div>
+            <div><span role="img" aria-label="location">📍</span> G-510(1st),IPIA, Road no. 7, Anantpura, Kota, Rajasthan</div>
+            <div><span role="img" aria-label="phone">📞</span> +91 9928398987</div>
+            <div><span role="img" aria-label="phone">📞</span> +91 9829961487</div>
+            <div><span role="img" aria-label="phone">📞</span> +91 6378140573</div>
+            <div><span role="img" aria-label="email">✉️</span> sahumetalskota@gmail.com</div>
           </div>
         </div>
         <form className="contact-form" onSubmit={handleSubmit}>

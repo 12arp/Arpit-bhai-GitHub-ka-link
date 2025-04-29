@@ -70,8 +70,10 @@
     min-height: unset;
   }
   .products-heading {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     margin-bottom: 1.2rem;
+    padding: 0 0.5rem;
+    font-family: inherit;
   }
   .products-list {
     flex-direction: column;

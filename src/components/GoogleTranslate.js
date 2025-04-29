@@ -6,7 +6,9 @@ const GoogleTranslate = () => {
     <div 
       id="google_translate_element" 
       className="google-translate-container"
-    />
+    >
+     
+    </div>
   );
 };
 
